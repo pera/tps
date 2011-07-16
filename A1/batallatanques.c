@@ -59,8 +59,7 @@ typedef struct casillero {
 } c;
 
 /*
- * Implementacion multiplataforma de fflush:
- * Limpia el stream del stdin
+ * Limpia el stream del stdin (solo para getc)
  *
  */
 void flushstream(int *s) {
