@@ -17,7 +17,6 @@
 
 int demora; // tiempo de demora en milisegundos
 
-// Esta funcion usa el timer de Boost anterior a la v1.48 (aun no disponible)
 void demorar()
 {
 	using namespace boost::chrono;
